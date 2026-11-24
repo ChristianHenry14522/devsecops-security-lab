@@ -1,0 +1,10 @@
+title = "DevSecOps Lab Secret Detection"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "lab-aws-access-key"
+description = "Planted AWS Access Key"
+regex = '''AKIA[A-Z0-9]{16}'''
+keywords = ["AKIA"]
