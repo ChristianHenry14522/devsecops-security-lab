@@ -1,2 +1,2 @@
 # devsecops-security-lab
-DevSecOps and Secure CI/CD Assignment
+This repository demonstrates security gates in a DevSecOps pipeline.
